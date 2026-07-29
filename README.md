@@ -1,6 +1,7 @@
 # Local Agentic RAG App with HITL and Memory
 
-A Streamlit AI agent that runs without API keys. It reuses the local RAG architecture and Hugging Face open-source models, then adds:
+A Streamlit AI agent that runs without API keys. This is v2 of my RAG work. The earlier version, [RAG-AskDr-app](https://github.com/SaintClair33/RAG-AskDr-app), used a hosted OpenAI model and a managed LangChain retrieval chain. This rebuild runs entirely on local Hugging Face models with no API keys, and adds agent planning with human-in-the-loop approval and persistent memory. It reuses the local RAG architecture and Hugging Face open-source models, then adds:
+
 
 - Human-in-the-loop plan approval
 - Short-term memory from the current chat
