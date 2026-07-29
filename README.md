@@ -33,14 +33,14 @@ python -m venv .venv
 # source .venv/bin/activate
 
 pip install -r requirements.txt
-streamlit run app.py
+streamlit run app1.py
 ```
 
 ## Deploy to Streamlit Cloud
 
 1. Push this folder to GitHub.
 2. Create a Streamlit Community Cloud app from the repo.
-3. Set `app.py` as the main file.
+3. Set `app1.py` as the main file.
 4. No secrets or API keys are required.
 5. Keep the smaller default model for cloud deployment unless your app has enough memory.
 
